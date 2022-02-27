@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link href="./style/stile.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="title">
+        <h2>BLACK JACK</h2>
+    </div>
+    <div class="contenido">
+        <div class="contenedor">
+            <div class="botones">
+                
+                <button id="nueva-carta" class="boton azul">nueva carta</button>
+                <button id="final" class="boton rojo">Maquina</button>
+                <button id="nuevo-juego" class="boton verde">Nuevo Juego</button>
+                <button id="terminar" class="boton naranja">Finalizar</button>
+            </div>
+            <div class="marcador"><H3 class="marcador__puntaje">MAQUINA: 0 - USUARIO 1: 0</H3></div>
+        </div>
+
+        <div><h2 id="gana-pierde">RESULTADO</h2></div>
+
+        <div class="players">
+            <div class="player">
+                <div class="player__jugador">
+                    <h2 id="puntajeJugador">Usuario 1 :</h2>   
+                </div>
+                <div id="usuario" class="cartas">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player__jugador">   
+                    <h2 id="puntajeMaquina">Maquina :</h2>    
+                </div>
+                <div id="maquina" class="cartas">
+                    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <script src="./src/juego.js"></script>
+</body>
+</html>

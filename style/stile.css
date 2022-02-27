@@ -1,0 +1,83 @@
+img{
+    width: 90px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    position: relative;
+    margin-left: -35px;
+    
+}    
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(31, 1, 1);
+}
+button{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px ;
+    
+}
+ 
+.verde{
+    background-color: rgb(15, 92, 8);
+}
+.naranja{
+    background-color: rgb(151, 60, 24);
+}
+.rojo{
+    background-color: rgb(53, 9, 9);
+}
+.azul{
+    background-color: rgb(17, 17, 61);
+}
+
+
+.title{
+    text-align: center;
+    color: wheat;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .title h2{
+        background-color: black;
+    }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+    .botones{
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .marcador{
+        display: flex;
+        
+        align-items: center;
+        color: white;
+    }
+#gana-pierde{
+    color: white;
+    text-align: center;
+}
+      
+.players{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+    .player{
+        padding-left: 45px;
+        height: 200px;
+    }
+        .player__jugador{
+            margin-bottom: 15px;
+            color: white;
+        }
+        .cartas{
+            margin-left: 30px;
+        }
+        
+
